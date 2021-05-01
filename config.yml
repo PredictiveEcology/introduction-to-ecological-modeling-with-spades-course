@@ -1,0 +1,16 @@
+title: Introduction to Ecological Modeling with SpaDES
+description: Introduction to Ecological Modeling with SpaDES
+template:
+  repo: introduction-to-ecological-modeling-with-spades-template
+  name: introduction-to-ecological-modeling-with-spades
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
